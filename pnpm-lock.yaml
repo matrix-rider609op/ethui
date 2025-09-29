@@ -101,8 +101,8 @@ importers:
         specifier: ~2.9.0
         version: 2.9.0
       abitype:
-        specifier: ^1.0.8
-        version: 1.0.8(typescript@5.9.2)(zod@4.1.5)
+        specifier: ^1.1.1
+        version: 1.1.1(typescript@5.9.2)(zod@4.1.5)
       core-js:
         specifier: ^3.45.1
         version: 3.45.1
@@ -2217,19 +2217,19 @@ packages:
     resolution: {integrity: sha512-PI6UdgpSeVoGvzguKHmy2bwOqI3UYkntLZOCpyJSKIi7234c5aJmQYkJB/P4P2YUJkqhbqvu7iM2/0eJZ178nA==}
     engines: {bun: '>=0.7.0', deno: '>=1.0.0', node: '>=16.5.0'}
 
-  abitype@1.0.8:
-    resolution: {integrity: sha512-ZeiI6h3GnW06uYDLx0etQtX/p8E24UaHHBj57RSjK7YBFe7iuVn07EDpOeP451D06sF27VOz9JJPlIKJmXgkEg==}
+  abitype@1.1.0:
+    resolution: {integrity: sha512-6Vh4HcRxNMLA0puzPjM5GBgT4aAcFGKZzSgAXvuZ27shJP6NEpielTuqbBmZILR5/xd0PizkBGy5hReKz9jl5A==}
     peerDependencies:
       typescript: '>=5.0.4'
-      zod: ^3 >=3.22.0
+      zod: ^3.22.0 || ^4.0.0
     peerDependenciesMeta:
       typescript:
         optional: true
       zod:
         optional: true
 
-  abitype@1.1.0:
-    resolution: {integrity: sha512-6Vh4HcRxNMLA0puzPjM5GBgT4aAcFGKZzSgAXvuZ27shJP6NEpielTuqbBmZILR5/xd0PizkBGy5hReKz9jl5A==}
+  abitype@1.1.1:
+    resolution: {integrity: sha512-Loe5/6tAgsBukY95eGaPSDmQHIjRZYQq8PB1MpsNccDIK8WiV+Uw6WzaIXipvaxTEL2yEB0OpEaQv3gs8pkS9Q==}
     peerDependencies:
       typescript: '>=5.0.4'
       zod: ^3.22.0 || ^4.0.0
@@ -6432,12 +6432,12 @@ snapshots:
 
   '@zip.js/zip.js@2.8.2': {}
 
-  abitype@1.0.8(typescript@5.9.2)(zod@4.1.5):
+  abitype@1.1.0(typescript@5.9.2)(zod@4.1.5):
     optionalDependencies:
       typescript: 5.9.2
       zod: 4.1.5
 
-  abitype@1.1.0(typescript@5.9.2)(zod@4.1.5):
+  abitype@1.1.1(typescript@5.9.2)(zod@4.1.5):
     optionalDependencies:
       typescript: 5.9.2
       zod: 4.1.5
@@ -7821,7 +7821,7 @@ snapshots:
       '@noble/hashes': 1.8.0
       '@scure/bip32': 1.7.0
       '@scure/bip39': 1.6.0
-      abitype: 1.1.0(typescript@5.9.2)(zod@4.1.5)
+      abitype: 1.1.1(typescript@5.9.2)(zod@4.1.5)
       eventemitter3: 5.0.1
     optionalDependencies:
       typescript: 5.9.2
