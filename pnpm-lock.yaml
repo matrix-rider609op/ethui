@@ -299,8 +299,8 @@ importers:
         specifier: ^9.19.0
         version: 9.19.2
       '@wdio/types':
-        specifier: ^9.19.2
-        version: 9.19.2
+        specifier: ^9.20.0
+        version: 9.20.0
       typescript:
         specifier: 5.9.2
         version: 5.9.2
@@ -2094,6 +2094,9 @@ packages:
   '@types/node@20.19.13':
     resolution: {integrity: sha512-yCAeZl7a0DxgNVteXFHt9+uyFbqXGy/ShC4BlcHkoE0AfGXYv/BUiplV72DjMYXHDBXFjhvr6DD1NiRVfB4j8g==}
 
+  '@types/node@20.19.18':
+    resolution: {integrity: sha512-KeYVbfnbsBCyKG8e3gmUqAfyZNcoj/qpEbHRkQkfZdKOBrU7QQ+BsTdfqLSWX9/m1ytYreMhpKvp+EZi3UFYAg==}
+
   '@types/node@24.3.0':
     resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
 
@@ -2203,6 +2206,10 @@ packages:
 
   '@wdio/types@9.19.2':
     resolution: {integrity: sha512-fBI7ljL+YcPXSXUhdk2+zVuz7IYP1aDMTq1eVmMme9GY0y67t0dCNPOt6xkCAEdL5dOcV6D2L1r6Cf/M2ifTvQ==}
+    engines: {node: '>=18.20.0'}
+
+  '@wdio/types@9.20.0':
+    resolution: {integrity: sha512-zMmAtse2UMCSOW76mvK3OejauAdcFGuKopNRH7crI0gwKTZtvV89yXWRziz9cVXpFgfmJCjf9edxKFWdhuF5yw==}
     engines: {node: '>=18.20.0'}
 
   '@wdio/utils@9.19.2':
@@ -6198,6 +6205,10 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
+  '@types/node@20.19.18':
+    dependencies:
+      undici-types: 6.21.0
+
   '@types/node@24.3.0':
     dependencies:
       undici-types: 7.10.0
@@ -6367,7 +6378,7 @@ snapshots:
 
   '@wdio/reporter@9.19.2':
     dependencies:
-      '@types/node': 20.19.13
+      '@types/node': 20.19.18
       '@wdio/logger': 9.18.0
       '@wdio/types': 9.19.2
       diff: 8.0.2
@@ -6403,7 +6414,11 @@ snapshots:
 
   '@wdio/types@9.19.2':
     dependencies:
-      '@types/node': 20.19.13
+      '@types/node': 20.19.18
+
+  '@wdio/types@9.20.0':
+    dependencies:
+      '@types/node': 20.19.18
 
   '@wdio/utils@9.19.2':
     dependencies:
@@ -8592,7 +8607,7 @@ snapshots:
 
   webdriver@9.19.2:
     dependencies:
-      '@types/node': 20.19.13
+      '@types/node': 20.19.18
       '@types/ws': 8.18.1
       '@wdio/config': 9.19.2
       '@wdio/logger': 9.18.0
@@ -8612,7 +8627,7 @@ snapshots:
 
   webdriverio@9.19.2:
     dependencies:
-      '@types/node': 20.19.13
+      '@types/node': 20.19.18
       '@types/sinonjs__fake-timers': 8.1.5
       '@wdio/config': 9.19.2
       '@wdio/logger': 9.18.0
